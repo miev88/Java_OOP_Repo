@@ -12,8 +12,8 @@ public class Main {
             Simulation simulation = new Simulation();
 
             //Load items for phase-1 and phase-2
-            ArrayList<Item> listOne = simulation.loadItems(new File("src/phase-1.txt"));
-            ArrayList<Item> listTwo = simulation.loadItems(new File("src/phase-2.txt"));
+            ArrayList<Item> listOne = simulation.loadItems(new File("phase-1.txt"));
+            ArrayList<Item> listTwo = simulation.loadItems(new File("phase-2.txt"));
 
             //Load a fleet of U1 rockets for phase-1 and then for phase-2
             ArrayList<Rocket> fleetU1PhaseOne = simulation.loadU1(listOne);
